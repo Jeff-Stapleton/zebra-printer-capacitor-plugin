@@ -1,0 +1,24 @@
+framework module Plugin {
+  umbrella header "PrinterPlugin.h"
+  
+  header "MFiBtPrinterConnection.h"
+  header "ZebraPrinterConnection.h"
+  header "ZebraPrinter.h"
+  header "ZebraPrinterFactory.h"
+  header "TcpPrinterConnection.h"
+  header "SGD.h"
+  
+  header "ResponseValidator.h"
+  header "FormatUtil.h"
+  header "FileUtil.h"
+  header "PrinterStatus.h"
+  header "GraphicsUtil.h"
+  header "MagCardReader.h"
+  header "SmartCardReader.h"
+  header "ToolsUtil.h"
+  
+  header "ZplPrintMode.h"
+  
+  export *
+  module * { export * }
+}
