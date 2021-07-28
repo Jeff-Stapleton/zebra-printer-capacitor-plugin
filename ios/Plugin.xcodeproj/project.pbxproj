@@ -16,28 +16,28 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* PrinterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* PrinterPlugin.m */; };
 		50E1A94820377CB70090CE1A /* PrinterPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* PrinterPlugin.swift */; };
-		70B149F526B1E5C300F20C86 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B149DE26B1E5C300F20C86 /* libZSDK_API.a */; };
-		70B149F626B1E5C300F20C86 /* ZplPrintMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E026B1E5C300F20C86 /* ZplPrintMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149F726B1E5C300F20C86 /* GraphicsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E126B1E5C300F20C86 /* GraphicsUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149F826B1E5C300F20C86 /* ToolsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E226B1E5C300F20C86 /* ToolsUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149F926B1E5C300F20C86 /* MfiBtPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E326B1E5C300F20C86 /* MfiBtPrinterConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FA26B1E5C300F20C86 /* MagCardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E426B1E5C300F20C86 /* MagCardReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FB26B1E5C300F20C86 /* NetworkDiscoverer.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E526B1E5C300F20C86 /* NetworkDiscoverer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FC26B1E5C300F20C86 /* ZebraPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E626B1E5C300F20C86 /* ZebraPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FD26B1E5C300F20C86 /* FieldDescriptionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E726B1E5C300F20C86 /* FieldDescriptionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FE26B1E5C300F20C86 /* FileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E826B1E5C300F20C86 /* FileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B149FF26B1E5C300F20C86 /* ZebraPrinterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149E926B1E5C300F20C86 /* ZebraPrinterFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0026B1E5C300F20C86 /* PrinterStatusMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149EA26B1E5C300F20C86 /* PrinterStatusMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0126B1E5C300F20C86 /* ResponseValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149EB26B1E5C300F20C86 /* ResponseValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0226B1E5C300F20C86 /* DiscoveredPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149EC26B1E5C300F20C86 /* DiscoveredPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0326B1E5C300F20C86 /* ZebraPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149ED26B1E5C300F20C86 /* ZebraPrinterConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0426B1E5C300F20C86 /* SGD.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149EE26B1E5C300F20C86 /* SGD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0526B1E5C300F20C86 /* DiscoveredPrinterNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149EF26B1E5C300F20C86 /* DiscoveredPrinterNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0626B1E5C300F20C86 /* ZebraErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149F026B1E5C300F20C86 /* ZebraErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0726B1E5C300F20C86 /* PrinterStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149F126B1E5C300F20C86 /* PrinterStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0826B1E5C300F20C86 /* FormatUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149F226B1E5C300F20C86 /* FormatUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0926B1E5C300F20C86 /* TcpPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149F326B1E5C300F20C86 /* TcpPrinterConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B14A0A26B1E5C300F20C86 /* SmartCardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B149F426B1E5C300F20C86 /* SmartCardReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A801EA26B1FE9600E293F3 /* ZplPrintMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D326B1FE9600E293F3 /* ZplPrintMode.h */; };
+		70A801EB26B1FE9600E293F3 /* GraphicsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D426B1FE9600E293F3 /* GraphicsUtil.h */; };
+		70A801EC26B1FE9600E293F3 /* ToolsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D526B1FE9600E293F3 /* ToolsUtil.h */; };
+		70A801ED26B1FE9600E293F3 /* MfiBtPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D626B1FE9600E293F3 /* MfiBtPrinterConnection.h */; };
+		70A801EE26B1FE9600E293F3 /* MagCardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D726B1FE9600E293F3 /* MagCardReader.h */; };
+		70A801EF26B1FE9600E293F3 /* NetworkDiscoverer.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D826B1FE9600E293F3 /* NetworkDiscoverer.h */; };
+		70A801F026B1FE9600E293F3 /* ZebraPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801D926B1FE9600E293F3 /* ZebraPrinter.h */; };
+		70A801F126B1FE9600E293F3 /* FieldDescriptionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DA26B1FE9600E293F3 /* FieldDescriptionData.h */; };
+		70A801F226B1FE9600E293F3 /* FileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DB26B1FE9600E293F3 /* FileUtil.h */; };
+		70A801F326B1FE9600E293F3 /* ZebraPrinterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DC26B1FE9600E293F3 /* ZebraPrinterFactory.h */; };
+		70A801F426B1FE9600E293F3 /* PrinterStatusMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DD26B1FE9600E293F3 /* PrinterStatusMessages.h */; };
+		70A801F526B1FE9600E293F3 /* ResponseValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DE26B1FE9600E293F3 /* ResponseValidator.h */; };
+		70A801F626B1FE9600E293F3 /* DiscoveredPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801DF26B1FE9600E293F3 /* DiscoveredPrinter.h */; };
+		70A801F726B1FE9600E293F3 /* ZebraPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E026B1FE9600E293F3 /* ZebraPrinterConnection.h */; };
+		70A801F826B1FE9600E293F3 /* SGD.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E126B1FE9600E293F3 /* SGD.h */; };
+		70A801F926B1FE9600E293F3 /* DiscoveredPrinterNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E226B1FE9600E293F3 /* DiscoveredPrinterNetwork.h */; };
+		70A801FA26B1FE9600E293F3 /* ZebraErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E326B1FE9600E293F3 /* ZebraErrorCode.h */; };
+		70A801FB26B1FE9600E293F3 /* PrinterStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E526B1FE9600E293F3 /* PrinterStatus.h */; };
+		70A801FC26B1FE9600E293F3 /* FormatUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E626B1FE9600E293F3 /* FormatUtil.h */; };
+		70A801FD26B1FE9600E293F3 /* TcpPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E726B1FE9600E293F3 /* TcpPrinterConnection.h */; };
+		70A801FE26B1FE9600E293F3 /* SmartCardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E826B1FE9600E293F3 /* SmartCardReader.h */; };
+		70A8026826B2044D00E293F3 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8020C26B2043F00E293F3 /* libZSDK_API.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 50ADFF87201F53D600D50D53;
 			remoteInfo = Plugin;
+		};
+		70A8026026B2043F00E293F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A8022C26B2043F00E293F3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44D6062E8C618EC2B8F1D7229E8AD501;
+			remoteInfo = Capacitor;
+		};
+		70A8026226B2043F00E293F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A8022C26B2043F00E293F3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1ABFDA3391AEBA42EFB0FEBF824A6E34;
+			remoteInfo = CapacitorCordova;
+		};
+		70A8026426B2043F00E293F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A8022C26B2043F00E293F3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B7B23985828F9D35ECCA1361A486792;
+			remoteInfo = "Pods-Plugin";
+		};
+		70A8026626B2043F00E293F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A8022C26B2043F00E293F3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58DEAF78291AAC1E83073B9084B45542;
+			remoteInfo = "Pods-PluginTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,29 +91,100 @@
 		50ADFFA72020EE4F00D50D53 /* PrinterPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterPlugin.m; sourceTree = "<group>"; };
 		50E1A94720377CB70090CE1A /* PrinterPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterPlugin.swift; sourceTree = "<group>"; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
-		702B411326B0C0D200F3395D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		70B149DE26B1E5C300F20C86 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZSDK_API.a; sourceTree = "<group>"; };
-		70B149E026B1E5C300F20C86 /* ZplPrintMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZplPrintMode.h; sourceTree = "<group>"; };
-		70B149E126B1E5C300F20C86 /* GraphicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsUtil.h; sourceTree = "<group>"; };
-		70B149E226B1E5C300F20C86 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
-		70B149E326B1E5C300F20C86 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MfiBtPrinterConnection.h; sourceTree = "<group>"; };
-		70B149E426B1E5C300F20C86 /* MagCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagCardReader.h; sourceTree = "<group>"; };
-		70B149E526B1E5C300F20C86 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDiscoverer.h; sourceTree = "<group>"; };
-		70B149E626B1E5C300F20C86 /* ZebraPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinter.h; sourceTree = "<group>"; };
-		70B149E726B1E5C300F20C86 /* FieldDescriptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDescriptionData.h; sourceTree = "<group>"; };
-		70B149E826B1E5C300F20C86 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
-		70B149E926B1E5C300F20C86 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterFactory.h; sourceTree = "<group>"; };
-		70B149EA26B1E5C300F20C86 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatusMessages.h; sourceTree = "<group>"; };
-		70B149EB26B1E5C300F20C86 /* ResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseValidator.h; sourceTree = "<group>"; };
-		70B149EC26B1E5C300F20C86 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinter.h; sourceTree = "<group>"; };
-		70B149ED26B1E5C300F20C86 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
-		70B149EE26B1E5C300F20C86 /* SGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGD.h; sourceTree = "<group>"; };
-		70B149EF26B1E5C300F20C86 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
-		70B149F026B1E5C300F20C86 /* ZebraErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraErrorCode.h; sourceTree = "<group>"; };
-		70B149F126B1E5C300F20C86 /* PrinterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatus.h; sourceTree = "<group>"; };
-		70B149F226B1E5C300F20C86 /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
-		70B149F326B1E5C300F20C86 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
-		70B149F426B1E5C300F20C86 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
+		70A801D226B1FE9600E293F3 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZSDK_API.a; sourceTree = "<group>"; };
+		70A801D326B1FE9600E293F3 /* ZplPrintMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZplPrintMode.h; sourceTree = "<group>"; };
+		70A801D426B1FE9600E293F3 /* GraphicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsUtil.h; sourceTree = "<group>"; };
+		70A801D526B1FE9600E293F3 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
+		70A801D626B1FE9600E293F3 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MfiBtPrinterConnection.h; sourceTree = "<group>"; };
+		70A801D726B1FE9600E293F3 /* MagCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagCardReader.h; sourceTree = "<group>"; };
+		70A801D826B1FE9600E293F3 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDiscoverer.h; sourceTree = "<group>"; };
+		70A801D926B1FE9600E293F3 /* ZebraPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinter.h; sourceTree = "<group>"; };
+		70A801DA26B1FE9600E293F3 /* FieldDescriptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDescriptionData.h; sourceTree = "<group>"; };
+		70A801DB26B1FE9600E293F3 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		70A801DC26B1FE9600E293F3 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterFactory.h; sourceTree = "<group>"; };
+		70A801DD26B1FE9600E293F3 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatusMessages.h; sourceTree = "<group>"; };
+		70A801DE26B1FE9600E293F3 /* ResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseValidator.h; sourceTree = "<group>"; };
+		70A801DF26B1FE9600E293F3 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinter.h; sourceTree = "<group>"; };
+		70A801E026B1FE9600E293F3 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
+		70A801E126B1FE9600E293F3 /* SGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGD.h; sourceTree = "<group>"; };
+		70A801E226B1FE9600E293F3 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
+		70A801E326B1FE9600E293F3 /* ZebraErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraErrorCode.h; sourceTree = "<group>"; };
+		70A801E426B1FE9600E293F3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		70A801E526B1FE9600E293F3 /* PrinterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatus.h; sourceTree = "<group>"; };
+		70A801E626B1FE9600E293F3 /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
+		70A801E726B1FE9600E293F3 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
+		70A801E826B1FE9600E293F3 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
+		70A8020126B2019900E293F3 /* ZebraSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraSDK.h; sourceTree = "<group>"; };
+		70A8020326B202CB00E293F3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		70A8020626B2043F00E293F3 /* PrinterPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterPlugin.m; sourceTree = "<group>"; };
+		70A8020826B2043F00E293F3 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		70A8020926B2043F00E293F3 /* PrinterPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPlugin.swift; sourceTree = "<group>"; };
+		70A8020A26B2043F00E293F3 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		70A8020C26B2043F00E293F3 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZSDK_API.a; sourceTree = "<group>"; };
+		70A8020E26B2043F00E293F3 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		70A8021026B2043F00E293F3 /* ZplPrintMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZplPrintMode.h; sourceTree = "<group>"; };
+		70A8021126B2043F00E293F3 /* GraphicsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsUtil.h; sourceTree = "<group>"; };
+		70A8021226B2043F00E293F3 /* ZebraSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraSDK.h; sourceTree = "<group>"; };
+		70A8021326B2043F00E293F3 /* ToolsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
+		70A8021426B2043F00E293F3 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MfiBtPrinterConnection.h; sourceTree = "<group>"; };
+		70A8021526B2043F00E293F3 /* MagCardReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagCardReader.h; sourceTree = "<group>"; };
+		70A8021626B2043F00E293F3 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkDiscoverer.h; sourceTree = "<group>"; };
+		70A8021726B2043F00E293F3 /* ZebraPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraPrinter.h; sourceTree = "<group>"; };
+		70A8021826B2043F00E293F3 /* FieldDescriptionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FieldDescriptionData.h; sourceTree = "<group>"; };
+		70A8021926B2043F00E293F3 /* FileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		70A8021A26B2043F00E293F3 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterFactory.h; sourceTree = "<group>"; };
+		70A8021B26B2043F00E293F3 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterStatusMessages.h; sourceTree = "<group>"; };
+		70A8021C26B2043F00E293F3 /* ResponseValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseValidator.h; sourceTree = "<group>"; };
+		70A8021D26B2043F00E293F3 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinter.h; sourceTree = "<group>"; };
+		70A8021E26B2043F00E293F3 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
+		70A8021F26B2043F00E293F3 /* SGD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGD.h; sourceTree = "<group>"; };
+		70A8022026B2043F00E293F3 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
+		70A8022126B2043F00E293F3 /* ZebraErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraErrorCode.h; sourceTree = "<group>"; };
+		70A8022226B2043F00E293F3 /* PrinterStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterStatus.h; sourceTree = "<group>"; };
+		70A8022326B2043F00E293F3 /* FormatUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
+		70A8022426B2043F00E293F3 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
+		70A8022526B2043F00E293F3 /* SmartCardReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
+		70A8022626B2043F00E293F3 /* PrinterPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterPlugin.h; sourceTree = "<group>"; };
+		70A8022726B2043F00E293F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A8022826B2043F00E293F3 /* Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Plugin.xcodeproj; sourceTree = "<group>"; };
+		70A8022C26B2043F00E293F3 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		70A8023126B2043F00E293F3 /* Pods-PluginTests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-PluginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70A8023226B2043F00E293F3 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70A8023326B2043F00E293F3 /* Pods-PluginTests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PluginTests.modulemap"; sourceTree = "<group>"; };
+		70A8023426B2043F00E293F3 /* Pods-PluginTests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-PluginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70A8023526B2043F00E293F3 /* Pods-PluginTests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-PluginTests-dummy.m"; sourceTree = "<group>"; };
+		70A8023626B2043F00E293F3 /* Pods-PluginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-PluginTests-Info.plist"; sourceTree = "<group>"; };
+		70A8023726B2043F00E293F3 /* Pods-PluginTests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-PluginTests-umbrella.h"; sourceTree = "<group>"; };
+		70A8023826B2043F00E293F3 /* Pods-PluginTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-PluginTests-frameworks.sh"; sourceTree = "<group>"; };
+		70A8023926B2043F00E293F3 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
+		70A8023B26B2043F00E293F3 /* Capacitor.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Capacitor.modulemap; sourceTree = "<group>"; };
+		70A8023C26B2043F00E293F3 /* Capacitor.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Capacitor.release.xcconfig; sourceTree = "<group>"; };
+		70A8023D26B2043F00E293F3 /* Capacitor-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capacitor-prefix.pch"; sourceTree = "<group>"; };
+		70A8023E26B2043F00E293F3 /* Capacitor.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Capacitor.debug.xcconfig; sourceTree = "<group>"; };
+		70A8023F26B2043F00E293F3 /* Capacitor-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Capacitor-dummy.m"; sourceTree = "<group>"; };
+		70A8024026B2043F00E293F3 /* Capacitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Capacitor-Info.plist"; sourceTree = "<group>"; };
+		70A8024226B2043F00E293F3 /* CapacitorCordova.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CapacitorCordova.debug.xcconfig; sourceTree = "<group>"; };
+		70A8024326B2043F00E293F3 /* CapacitorCordova-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapacitorCordova-prefix.pch"; sourceTree = "<group>"; };
+		70A8024426B2043F00E293F3 /* CapacitorCordova.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CapacitorCordova.release.xcconfig; sourceTree = "<group>"; };
+		70A8024526B2043F00E293F3 /* CapacitorCordova.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = CapacitorCordova.modulemap; sourceTree = "<group>"; };
+		70A8024626B2043F00E293F3 /* CapacitorCordova-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapacitorCordova-Info.plist"; sourceTree = "<group>"; };
+		70A8024726B2043F00E293F3 /* CapacitorCordova-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CapacitorCordova-dummy.m"; sourceTree = "<group>"; };
+		70A8024926B2043F00E293F3 /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
+		70A8024A26B2043F00E293F3 /* Pods-Plugin-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-Plugin-umbrella.h"; sourceTree = "<group>"; };
+		70A8024B26B2043F00E293F3 /* Pods-Plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-Plugin-Info.plist"; sourceTree = "<group>"; };
+		70A8024C26B2043F00E293F3 /* Pods-Plugin-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-Plugin-dummy.m"; sourceTree = "<group>"; };
+		70A8024D26B2043F00E293F3 /* Pods-Plugin.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Plugin.modulemap"; sourceTree = "<group>"; };
+		70A8024E26B2043F00E293F3 /* Pods-Plugin-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Plugin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70A8024F26B2043F00E293F3 /* Pods-Plugin-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-Plugin-acknowledgements.plist"; sourceTree = "<group>"; };
+		70A8025026B2043F00E293F3 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
+		70A8025126B2043F00E293F3 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		70A8025326B2043F00E293F3 /* Capacitor.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Capacitor.podspec.json; sourceTree = "<group>"; };
+		70A8025426B2043F00E293F3 /* CapacitorCordova.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CapacitorCordova.podspec.json; sourceTree = "<group>"; };
+		70A8025626B2043F00E293F3 /* Plugin.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Plugin.xcworkspace; sourceTree = "<group>"; };
+		70A8025726B2043F00E293F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		70A8025926B2043F00E293F3 /* PrinterPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPluginTests.swift; sourceTree = "<group>"; };
+		70A8025A26B2043F00E293F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A8025B26B2043F00E293F3 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,8 +196,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A8026826B2044D00E293F3 /* libZSDK_API.a in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
-				70B149F526B1E5C300F20C86 /* libZSDK_API.a in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +237,8 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
-				70B149DD26B1E5C300F20C86 /* ZebraSDK */,
-				702B411326B0C0D200F3395D /* module.modulemap */,
+				70A8020226B2024800E293F3 /* zlib */,
+				70A801D126B1FE9600E293F3 /* ZebraSDK */,
 				50E1A94720377CB70090CE1A /* PrinterPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* Printer.swift */,
 				50ADFF8B201F53D600D50D53 /* PrinterPlugin.h */,
@@ -158,41 +257,263 @@
 			path = PluginTests;
 			sourceTree = "<group>";
 		};
-		70B149DD26B1E5C300F20C86 /* ZebraSDK */ = {
+		70A801D126B1FE9600E293F3 /* ZebraSDK */ = {
 			isa = PBXGroup;
 			children = (
-				70B149DE26B1E5C300F20C86 /* libZSDK_API.a */,
-				70B149DF26B1E5C300F20C86 /* include */,
+				70A8020026B2017700E293F3 /* module */,
+				70A801FF26B2015F00E293F3 /* include */,
+				70A801D226B1FE9600E293F3 /* libZSDK_API.a */,
 			);
 			path = ZebraSDK;
 			sourceTree = "<group>";
 		};
-		70B149DF26B1E5C300F20C86 /* include */ = {
+		70A801FF26B2015F00E293F3 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				70B149E026B1E5C300F20C86 /* ZplPrintMode.h */,
-				70B149E126B1E5C300F20C86 /* GraphicsUtil.h */,
-				70B149E226B1E5C300F20C86 /* ToolsUtil.h */,
-				70B149E326B1E5C300F20C86 /* MfiBtPrinterConnection.h */,
-				70B149E426B1E5C300F20C86 /* MagCardReader.h */,
-				70B149E526B1E5C300F20C86 /* NetworkDiscoverer.h */,
-				70B149E626B1E5C300F20C86 /* ZebraPrinter.h */,
-				70B149E726B1E5C300F20C86 /* FieldDescriptionData.h */,
-				70B149E826B1E5C300F20C86 /* FileUtil.h */,
-				70B149E926B1E5C300F20C86 /* ZebraPrinterFactory.h */,
-				70B149EA26B1E5C300F20C86 /* PrinterStatusMessages.h */,
-				70B149EB26B1E5C300F20C86 /* ResponseValidator.h */,
-				70B149EC26B1E5C300F20C86 /* DiscoveredPrinter.h */,
-				70B149ED26B1E5C300F20C86 /* ZebraPrinterConnection.h */,
-				70B149EE26B1E5C300F20C86 /* SGD.h */,
-				70B149EF26B1E5C300F20C86 /* DiscoveredPrinterNetwork.h */,
-				70B149F026B1E5C300F20C86 /* ZebraErrorCode.h */,
-				70B149F126B1E5C300F20C86 /* PrinterStatus.h */,
-				70B149F226B1E5C300F20C86 /* FormatUtil.h */,
-				70B149F326B1E5C300F20C86 /* TcpPrinterConnection.h */,
-				70B149F426B1E5C300F20C86 /* SmartCardReader.h */,
+				70A801D326B1FE9600E293F3 /* ZplPrintMode.h */,
+				70A801D426B1FE9600E293F3 /* GraphicsUtil.h */,
+				70A801D526B1FE9600E293F3 /* ToolsUtil.h */,
+				70A801D626B1FE9600E293F3 /* MfiBtPrinterConnection.h */,
+				70A801D726B1FE9600E293F3 /* MagCardReader.h */,
+				70A801D826B1FE9600E293F3 /* NetworkDiscoverer.h */,
+				70A801D926B1FE9600E293F3 /* ZebraPrinter.h */,
+				70A801DA26B1FE9600E293F3 /* FieldDescriptionData.h */,
+				70A801DB26B1FE9600E293F3 /* FileUtil.h */,
+				70A801DC26B1FE9600E293F3 /* ZebraPrinterFactory.h */,
+				70A801DD26B1FE9600E293F3 /* PrinterStatusMessages.h */,
+				70A801DE26B1FE9600E293F3 /* ResponseValidator.h */,
+				70A801DF26B1FE9600E293F3 /* DiscoveredPrinter.h */,
+				70A801E026B1FE9600E293F3 /* ZebraPrinterConnection.h */,
+				70A801E126B1FE9600E293F3 /* SGD.h */,
+				70A801E226B1FE9600E293F3 /* DiscoveredPrinterNetwork.h */,
+				70A801E326B1FE9600E293F3 /* ZebraErrorCode.h */,
+				70A801E526B1FE9600E293F3 /* PrinterStatus.h */,
+				70A801E626B1FE9600E293F3 /* FormatUtil.h */,
+				70A801E726B1FE9600E293F3 /* TcpPrinterConnection.h */,
+				70A801E826B1FE9600E293F3 /* SmartCardReader.h */,
+				70A8020126B2019900E293F3 /* ZebraSDK.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		70A8020026B2017700E293F3 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				70A801E426B1FE9600E293F3 /* module.modulemap */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		70A8020226B2024800E293F3 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020326B202CB00E293F3 /* module.modulemap */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+		70A8020426B2043F00E293F3 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020526B2043F00E293F3 /* Plugin */,
+				70A8022826B2043F00E293F3 /* Plugin.xcodeproj */,
+				70A8022B26B2043F00E293F3 /* Pods */,
+				70A8025626B2043F00E293F3 /* Plugin.xcworkspace */,
+				70A8025726B2043F00E293F3 /* Podfile */,
+				70A8025826B2043F00E293F3 /* PluginTests */,
+				70A8025B26B2043F00E293F3 /* Podfile.lock */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		70A8020526B2043F00E293F3 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020626B2043F00E293F3 /* PrinterPlugin.m */,
+				70A8020726B2043F00E293F3 /* zlib */,
+				70A8020926B2043F00E293F3 /* PrinterPlugin.swift */,
+				70A8020A26B2043F00E293F3 /* Printer.swift */,
+				70A8020B26B2043F00E293F3 /* ZebraSDK */,
+				70A8022626B2043F00E293F3 /* PrinterPlugin.h */,
+				70A8022726B2043F00E293F3 /* Info.plist */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		70A8020726B2043F00E293F3 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020826B2043F00E293F3 /* module.modulemap */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+		70A8020B26B2043F00E293F3 /* ZebraSDK */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020C26B2043F00E293F3 /* libZSDK_API.a */,
+				70A8020D26B2043F00E293F3 /* module */,
+				70A8020F26B2043F00E293F3 /* include */,
+			);
+			path = ZebraSDK;
+			sourceTree = "<group>";
+		};
+		70A8020D26B2043F00E293F3 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				70A8020E26B2043F00E293F3 /* module.modulemap */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		70A8020F26B2043F00E293F3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				70A8021026B2043F00E293F3 /* ZplPrintMode.h */,
+				70A8021126B2043F00E293F3 /* GraphicsUtil.h */,
+				70A8021226B2043F00E293F3 /* ZebraSDK.h */,
+				70A8021326B2043F00E293F3 /* ToolsUtil.h */,
+				70A8021426B2043F00E293F3 /* MfiBtPrinterConnection.h */,
+				70A8021526B2043F00E293F3 /* MagCardReader.h */,
+				70A8021626B2043F00E293F3 /* NetworkDiscoverer.h */,
+				70A8021726B2043F00E293F3 /* ZebraPrinter.h */,
+				70A8021826B2043F00E293F3 /* FieldDescriptionData.h */,
+				70A8021926B2043F00E293F3 /* FileUtil.h */,
+				70A8021A26B2043F00E293F3 /* ZebraPrinterFactory.h */,
+				70A8021B26B2043F00E293F3 /* PrinterStatusMessages.h */,
+				70A8021C26B2043F00E293F3 /* ResponseValidator.h */,
+				70A8021D26B2043F00E293F3 /* DiscoveredPrinter.h */,
+				70A8021E26B2043F00E293F3 /* ZebraPrinterConnection.h */,
+				70A8021F26B2043F00E293F3 /* SGD.h */,
+				70A8022026B2043F00E293F3 /* DiscoveredPrinterNetwork.h */,
+				70A8022126B2043F00E293F3 /* ZebraErrorCode.h */,
+				70A8022226B2043F00E293F3 /* PrinterStatus.h */,
+				70A8022326B2043F00E293F3 /* FormatUtil.h */,
+				70A8022426B2043F00E293F3 /* TcpPrinterConnection.h */,
+				70A8022526B2043F00E293F3 /* SmartCardReader.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		70A8022926B2043F00E293F3 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A8022B26B2043F00E293F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8022C26B2043F00E293F3 /* Pods.xcodeproj */,
+				70A8022F26B2043F00E293F3 /* Target Support Files */,
+				70A8025126B2043F00E293F3 /* Manifest.lock */,
+				70A8025226B2043F00E293F3 /* Local Podspecs */,
+				70A8025526B2043F00E293F3 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70A8022D26B2043F00E293F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A8026126B2043F00E293F3 /* Capacitor.framework */,
+				70A8026326B2043F00E293F3 /* Cordova.framework */,
+				70A8026526B2043F00E293F3 /* Pods_Plugin.framework */,
+				70A8026726B2043F00E293F3 /* Pods_PluginTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A8022F26B2043F00E293F3 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A8023026B2043F00E293F3 /* Pods-PluginTests */,
+				70A8023A26B2043F00E293F3 /* Capacitor */,
+				70A8024126B2043F00E293F3 /* CapacitorCordova */,
+				70A8024826B2043F00E293F3 /* Pods-Plugin */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		70A8023026B2043F00E293F3 /* Pods-PluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				70A8023126B2043F00E293F3 /* Pods-PluginTests-acknowledgements.plist */,
+				70A8023226B2043F00E293F3 /* Pods-PluginTests.debug.xcconfig */,
+				70A8023326B2043F00E293F3 /* Pods-PluginTests.modulemap */,
+				70A8023426B2043F00E293F3 /* Pods-PluginTests-acknowledgements.markdown */,
+				70A8023526B2043F00E293F3 /* Pods-PluginTests-dummy.m */,
+				70A8023626B2043F00E293F3 /* Pods-PluginTests-Info.plist */,
+				70A8023726B2043F00E293F3 /* Pods-PluginTests-umbrella.h */,
+				70A8023826B2043F00E293F3 /* Pods-PluginTests-frameworks.sh */,
+				70A8023926B2043F00E293F3 /* Pods-PluginTests.release.xcconfig */,
+			);
+			path = "Pods-PluginTests";
+			sourceTree = "<group>";
+		};
+		70A8023A26B2043F00E293F3 /* Capacitor */ = {
+			isa = PBXGroup;
+			children = (
+				70A8023B26B2043F00E293F3 /* Capacitor.modulemap */,
+				70A8023C26B2043F00E293F3 /* Capacitor.release.xcconfig */,
+				70A8023D26B2043F00E293F3 /* Capacitor-prefix.pch */,
+				70A8023E26B2043F00E293F3 /* Capacitor.debug.xcconfig */,
+				70A8023F26B2043F00E293F3 /* Capacitor-dummy.m */,
+				70A8024026B2043F00E293F3 /* Capacitor-Info.plist */,
+			);
+			path = Capacitor;
+			sourceTree = "<group>";
+		};
+		70A8024126B2043F00E293F3 /* CapacitorCordova */ = {
+			isa = PBXGroup;
+			children = (
+				70A8024226B2043F00E293F3 /* CapacitorCordova.debug.xcconfig */,
+				70A8024326B2043F00E293F3 /* CapacitorCordova-prefix.pch */,
+				70A8024426B2043F00E293F3 /* CapacitorCordova.release.xcconfig */,
+				70A8024526B2043F00E293F3 /* CapacitorCordova.modulemap */,
+				70A8024626B2043F00E293F3 /* CapacitorCordova-Info.plist */,
+				70A8024726B2043F00E293F3 /* CapacitorCordova-dummy.m */,
+			);
+			path = CapacitorCordova;
+			sourceTree = "<group>";
+		};
+		70A8024826B2043F00E293F3 /* Pods-Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				70A8024926B2043F00E293F3 /* Pods-Plugin.debug.xcconfig */,
+				70A8024A26B2043F00E293F3 /* Pods-Plugin-umbrella.h */,
+				70A8024B26B2043F00E293F3 /* Pods-Plugin-Info.plist */,
+				70A8024C26B2043F00E293F3 /* Pods-Plugin-dummy.m */,
+				70A8024D26B2043F00E293F3 /* Pods-Plugin.modulemap */,
+				70A8024E26B2043F00E293F3 /* Pods-Plugin-acknowledgements.markdown */,
+				70A8024F26B2043F00E293F3 /* Pods-Plugin-acknowledgements.plist */,
+				70A8025026B2043F00E293F3 /* Pods-Plugin.release.xcconfig */,
+			);
+			path = "Pods-Plugin";
+			sourceTree = "<group>";
+		};
+		70A8025226B2043F00E293F3 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				70A8025326B2043F00E293F3 /* Capacitor.podspec.json */,
+				70A8025426B2043F00E293F3 /* CapacitorCordova.podspec.json */,
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		70A8025526B2043F00E293F3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		70A8025826B2043F00E293F3 /* PluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				70A8025926B2043F00E293F3 /* PrinterPluginTests.swift */,
+				70A8025A26B2043F00E293F3 /* Info.plist */,
+			);
+			path = PluginTests;
 			sourceTree = "<group>";
 		};
 		8C8E7744173064A9F6D438E3 /* Pods */ = {
@@ -209,6 +530,7 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70A8020426B2043F00E293F3 /* ios */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -223,28 +545,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B149FE26B1E5C300F20C86 /* FileUtil.h in Headers */,
-				70B14A0A26B1E5C300F20C86 /* SmartCardReader.h in Headers */,
-				70B14A0726B1E5C300F20C86 /* PrinterStatus.h in Headers */,
-				70B14A0026B1E5C300F20C86 /* PrinterStatusMessages.h in Headers */,
-				70B149F826B1E5C300F20C86 /* ToolsUtil.h in Headers */,
-				70B149F626B1E5C300F20C86 /* ZplPrintMode.h in Headers */,
-				70B149FD26B1E5C300F20C86 /* FieldDescriptionData.h in Headers */,
-				70B149F726B1E5C300F20C86 /* GraphicsUtil.h in Headers */,
+				70A801F226B1FE9600E293F3 /* FileUtil.h in Headers */,
+				70A801FE26B1FE9600E293F3 /* SmartCardReader.h in Headers */,
+				70A801FB26B1FE9600E293F3 /* PrinterStatus.h in Headers */,
+				70A801F426B1FE9600E293F3 /* PrinterStatusMessages.h in Headers */,
+				70A801EC26B1FE9600E293F3 /* ToolsUtil.h in Headers */,
+				70A801EA26B1FE9600E293F3 /* ZplPrintMode.h in Headers */,
+				70A801F126B1FE9600E293F3 /* FieldDescriptionData.h in Headers */,
+				70A801EB26B1FE9600E293F3 /* GraphicsUtil.h in Headers */,
 				50ADFF99201F53D600D50D53 /* PrinterPlugin.h in Headers */,
-				70B149FC26B1E5C300F20C86 /* ZebraPrinter.h in Headers */,
-				70B14A0826B1E5C300F20C86 /* FormatUtil.h in Headers */,
-				70B149FB26B1E5C300F20C86 /* NetworkDiscoverer.h in Headers */,
-				70B14A0426B1E5C300F20C86 /* SGD.h in Headers */,
-				70B14A0226B1E5C300F20C86 /* DiscoveredPrinter.h in Headers */,
-				70B14A0326B1E5C300F20C86 /* ZebraPrinterConnection.h in Headers */,
-				70B149F926B1E5C300F20C86 /* MfiBtPrinterConnection.h in Headers */,
-				70B14A0126B1E5C300F20C86 /* ResponseValidator.h in Headers */,
-				70B14A0526B1E5C300F20C86 /* DiscoveredPrinterNetwork.h in Headers */,
-				70B149FF26B1E5C300F20C86 /* ZebraPrinterFactory.h in Headers */,
-				70B149FA26B1E5C300F20C86 /* MagCardReader.h in Headers */,
-				70B14A0926B1E5C300F20C86 /* TcpPrinterConnection.h in Headers */,
-				70B14A0626B1E5C300F20C86 /* ZebraErrorCode.h in Headers */,
+				70A801F026B1FE9600E293F3 /* ZebraPrinter.h in Headers */,
+				70A801FC26B1FE9600E293F3 /* FormatUtil.h in Headers */,
+				70A801EF26B1FE9600E293F3 /* NetworkDiscoverer.h in Headers */,
+				70A801F826B1FE9600E293F3 /* SGD.h in Headers */,
+				70A801F626B1FE9600E293F3 /* DiscoveredPrinter.h in Headers */,
+				70A801F726B1FE9600E293F3 /* ZebraPrinterConnection.h in Headers */,
+				70A801ED26B1FE9600E293F3 /* MfiBtPrinterConnection.h in Headers */,
+				70A801F526B1FE9600E293F3 /* ResponseValidator.h in Headers */,
+				70A801F926B1FE9600E293F3 /* DiscoveredPrinterNetwork.h in Headers */,
+				70A801F326B1FE9600E293F3 /* ZebraPrinterFactory.h in Headers */,
+				70A801EE26B1FE9600E293F3 /* MagCardReader.h in Headers */,
+				70A801FD26B1FE9600E293F3 /* TcpPrinterConnection.h in Headers */,
+				70A801FA26B1FE9600E293F3 /* ZebraErrorCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +645,16 @@
 			mainGroup = 50ADFF7E201F53D600D50D53;
 			productRefGroup = 50ADFF89201F53D600D50D53 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 70A8022926B2043F00E293F3 /* Products */;
+					ProjectRef = 70A8022826B2043F00E293F3 /* Plugin.xcodeproj */;
+				},
+				{
+					ProductGroup = 70A8022D26B2043F00E293F3 /* Products */;
+					ProjectRef = 70A8022C26B2043F00E293F3 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				50ADFF87201F53D600D50D53 /* Plugin */,
@@ -330,6 +662,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		70A8026126B2043F00E293F3 /* Capacitor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Capacitor.framework;
+			remoteRef = 70A8026026B2043F00E293F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70A8026326B2043F00E293F3 /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 70A8026226B2043F00E293F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70A8026526B2043F00E293F3 /* Pods_Plugin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Plugin.framework;
+			remoteRef = 70A8026426B2043F00E293F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70A8026726B2043F00E293F3 /* Pods_PluginTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_PluginTests.framework;
+			remoteRef = 70A8026626B2043F00E293F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		50ADFF86201F53D600D50D53 /* Resources */ = {
@@ -567,11 +930,8 @@
 			baseConfigurationReference = 5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -579,18 +939,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ZebraSDK",
-					"$(PROJECT_DIR)/Plugin/ZebraSDK",
-				);
-				MODULEMAP_FILE = "$(SRCROOT)/Plugin/module.modulemap";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Plugin/ZebraSDK";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Plugin/ZebraSDK/**";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -601,11 +955,8 @@
 			baseConfigurationReference = 91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -613,17 +964,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ZebraSDK",
-					"$(PROJECT_DIR)/Plugin/ZebraSDK",
-				);
-				MODULEMAP_FILE = "$(SRCROOT)/Plugin/module.modulemap";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Plugin/ZebraSDK";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Plugin/ZebraSDK/**";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

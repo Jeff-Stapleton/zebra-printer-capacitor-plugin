@@ -1,0 +1,5 @@
+module ZebraSDK [system][extern_c] {
+    header "../include/ZebraSDK.h"
+    link "z"
+    export *
+}
