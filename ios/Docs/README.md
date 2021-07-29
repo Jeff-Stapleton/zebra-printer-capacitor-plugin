@@ -75,9 +75,9 @@ With that done, you can finally implement the method's functionality in the `ios
 
 ## Including Static Libraries
 
-This plugin is mainly a wrapper for the ZebraPrinter SDK. The SDK was implemented in objective-c so getting it to play nice with swift was not easy. Below I will include a quick summary as to how the static library is implemented and packaged.
+This plugin is mainly a wrapper for the ZebraPrinter SDK. The SDK was implemented in objective-c so getting it to play nice with swift was not easy. Below I will include a quick summary on how to include a static library in a capacitor plugin.
 
-Since the Zebra SDK was written in objective-c we can't import it's headers into our swift framework and bridging headers are not supported in swift frameworks so we were left with one option, that is to create a module. This module can be found `ios/Plugin/ZebraSDK` it is import to provide both the static library and all the heaeder files.
+Since the Zebra SDK was written in objective-c we can't import it's headers into our swift framework and bridging headers are not supported in swift frameworks so we are left with one option, that is to create a module. This module can be found `ios/Plugin/ZebraSDK` it is important to provide both the static library and all the heaeder files.
 
 All the functionality of the SDK is contained within the `ios/Plugin/ZebraSDK/libZSDK_API.a` static library. We will need to configure the Plugin to be aware of this library. In Xcode open the Plugin.xcodeproj and go the "Build Phases" tab. Under the "Link Binary With Library" section add the reference `ios/Plugin/ZebraSDK/libZSDK_API.a`. 
 
@@ -94,12 +94,11 @@ Next we will need to create a `.modulemap` to define the module so it can be imp
 ```modulemap
 module ZebraSDK [system][extern_c] {
     header "../include/ZebraSDK.h"
-    link "z"
     export *
 }
 ```
 
-Here we are importing the main header `ios/Plugin/ZebraSDK/include/ZebraSDK.h` within this header is the imports of all the other c headers we are using in the plugin. It's also important to 
+Here we are importing the main header `ios/Plugin/ZebraSDK/include/ZebraSDK.h` within this header is the imports of all the other c headers we are using in the plugin.
 
 <br/>
 
@@ -135,11 +134,11 @@ public class PrinterPlugin: CAPPlugin {
 
 ## CocoaPods
 
-The above instructions will have gotten you to a place where you can work on and develop the plugin locally. But we still need to cofigure the plugin so when it's install into an application the compiler can find our module. 
+The above instructions will have gotten to a place where you can work on and develop the plugin locally. But we still need to cofigure the plugin so when it's installed into an application the compiler can find our module. 
 
-Capacitor uses Cocoapods when it comes to installing the plugin, we will need to configure the `ZebraPrinterCapacitorPlugin.podspec` file with all our configurations.
+Capacitor uses Cocoapods when it comes to installing the plugin, we will need to edit the `ZebraPrinterCapacitorPlugin.podspec` file with all our configurations.
 
-The first change we need to make is the tell cocoapods to grab our `.a` file when bundling the source files:
+The first change we need to make is to tell cocoapods to grab our `.a` file when bundling the source files:
 ```podspec
 s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp,a}'
 ```
@@ -158,3 +157,5 @@ Finally we need to tell cocoapods to preserve the path to our `.modulemap` file:
 ```podspec
 s.preserve_paths = 'ios/Plugin/ZebraSDK/module/module.modulemap'
 ```
+
+With the above additions to the .podspec file our plugin should now successfully compile when installed by a thirdparty application
