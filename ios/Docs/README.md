@@ -139,12 +139,12 @@ The above instructions will have gotten you to a place where you can work on and
 
 Capacitor uses Cocoapods when it comes to installing the plugin, we will need to configure the `ZebraPrinterCapacitorPlugin.podspec` file with all our configurations.
 
-The first change we need to make is the tell cocoapods to grab our `.modulemap` and `.a` files when bundling the source files:
+The first change we need to make is the tell cocoapods to grab our `.a` file when bundling the source files:
 ```podspec
-s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp,modulemap,a}'
+s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp,a}'
 ```
 
-Second we need to tell cocoapods that we are also providing a third party library. This configuration change will tell Xcode to link the libZSDK_API.a binaries:
+Second we need to tell cocoapods that we are also providing a third party library. This configuration links the libZSDK_API.a binaries in Xcode:
 ```podspec
 s.ios.vendored_libraries = 'ios/Plugin/ZebraSDK/libZSDK_API.a'
 ```
