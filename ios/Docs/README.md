@@ -23,8 +23,11 @@ To locally test the plugin you can link it to your application by running the fo
 ```bash
 npm install ../zebra-printer-capacitor-plugin
 ```
+<br/>
 
-Note that the path to the plugin, is the path to the directory that contains the plugin's `package.json`
+> **_NOTE:_** The path to the plugin, is the path to the directory that contains the plugin's `package.json`
+
+<br/>
 
 Finally to make your application aware of plugin run the following command:
 
@@ -70,15 +73,23 @@ CAP_PLUGIN(PrinterPlugin, "Printer",
 
 With that done, you can finally implement the method's functionality in the `ios/Plugin/PrinterPlugin.swift`
 
-## libZSDK_API.a
+## Including Static Libraries
 
 This plugin is mainly a wrapper for the ZebraPrinter SDK. The SDK was implemented in objective-c so getting it to play nice with swift was not easy. Below I will include a quick summary as to how the static library is implemented and packaged.
 
-Since the Zebra SDK was written in objective-c we can't import it's headers into our swift framework and bridging headers are not supported in swift frameworks so we were left with one option, that is to create a module. This module can be found `ios/Plugin/ZebraSDK`
+Since the Zebra SDK was written in objective-c we can't import it's headers into our swift framework and bridging headers are not supported in swift frameworks so we were left with one option, that is to create a module. This module can be found `ios/Plugin/ZebraSDK` it is import to provide both the static library and all the heaeder files.
 
-All th functionality of the SDK is contained within the `ios/Plugin/ZebraSDK/libZSDK_API.a` static library. We will need to configure the Plugin to be aware of this library. In Xcode open the Plugin.xcodeproj and go the "Build Phases" tab. Under the "Link Binary With Library" section add the reference to to `ios/Plugin/ZebraSDK/libZSDK_API.a`. Note this will also add the reference to "Frameworks, Libraries, and Embedded Content" under the "General" tab.
+All the functionality of the SDK is contained within the `ios/Plugin/ZebraSDK/libZSDK_API.a` static library. We will need to configure the Plugin to be aware of this library. In Xcode open the Plugin.xcodeproj and go the "Build Phases" tab. Under the "Link Binary With Library" section add the reference `ios/Plugin/ZebraSDK/libZSDK_API.a`. 
 
-Next we will need to create a `.modulemap` to define the module and so it can be imported for use in the plugin. 
+<br/>
+
+> **_NOTE:_**  This will also add the reference to "Frameworks, Libraries, and Embedded Content" under the "General" tab.
+
+<br/>
+
+![Linking Binaries](linking_binaries.png)
+
+Next we will need to create a `.modulemap` to define the module so it can be imported for use in the plugin. 
 
 ```modulemap
 module ZebraSDK [system][extern_c] {
@@ -88,11 +99,19 @@ module ZebraSDK [system][extern_c] {
 }
 ```
 
-Here we are importing the header for the main header `ios/Plugin/ZebraSDK/include/ZebraSDK.h` within this header is the imports of all the other headers we are using the the plugin. It's also import to note that we must also export this so that the consuming plugin can be aware of all the header files.
+Here we are importing the main header `ios/Plugin/ZebraSDK/include/ZebraSDK.h` within this header is the imports of all the other c headers we are using in the plugin. It's also important to 
+
+<br/>
+
+> **_NOTE:_** We also need export everything so that the consuming plugin will be aware of all the header files. So don't forget the `export *`
+
+<br/>
 
 With that done there is just one final step before we can import our module for use in the plugin. In Xcode open the Plugin.xcodeproj and go the "Build Settings" tab. under the "Swift Compiler - Search Paths" find the setting "Import Paths" set that value to `${SRCROOT}/Plugin/ZebraSDK`. Now when Xcode is trying to resolve module imports in swift it will also check this location and find our module.
 
-Thats it you are now ready to import the moduel in our `.swift` file and call functions from the SDK to
+![Configuring Import Paths](configuring_import_paths.png)
+
+Thats it! We are now ready to import the module into a `.swift` file and call functions from the SDK:
 
 ```swift
 import ZebraSDK
