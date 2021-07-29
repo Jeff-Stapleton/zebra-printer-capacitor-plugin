@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source = { :git => package['repository']['url'], :tag => s.version.to_s }
   s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp,modulemap,a}'
   s.ios.vendored_libraries = 'ios/Plugin/ZebraSDK/libZSDK_API.a'
-  s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '${SRCROOT}/ios/Plugin/ZebraSDK/**','LIBRARY_SEARCH_PATHS' => '${SRCROOT}/ios/Plugin/**','IMPORT_PATHS' => '${SRCROOT}/ios/Plugin/ZebraSDK/**'}
+  s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/../../../node_modules/zebra-printer-capacitor-plugin/ios/Plugin/ZebraSDK/**'}
   s.libraries = 'z'
   s.preserve_paths = 'ios/Plugin/ZebraSDK/module/module.modulemap'
   s.ios.deployment_target  = '12.0'
