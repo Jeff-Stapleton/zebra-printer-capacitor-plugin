@@ -115,7 +115,6 @@
 		70A801E726B1FE9600E293F3 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
 		70A801E826B1FE9600E293F3 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
 		70A8020126B2019900E293F3 /* ZebraSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraSDK.h; sourceTree = "<group>"; };
-		70A8020326B202CB00E293F3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		70A8020626B2043F00E293F3 /* PrinterPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterPlugin.m; sourceTree = "<group>"; };
 		70A8020826B2043F00E293F3 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		70A8020926B2043F00E293F3 /* PrinterPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPlugin.swift; sourceTree = "<group>"; };
@@ -237,7 +236,6 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
-				70A8020226B2024800E293F3 /* zlib */,
 				70A801D126B1FE9600E293F3 /* ZebraSDK */,
 				50E1A94720377CB70090CE1A /* PrinterPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* Printer.swift */,
@@ -302,14 +300,6 @@
 				70A801E426B1FE9600E293F3 /* module.modulemap */,
 			);
 			path = module;
-			sourceTree = "<group>";
-		};
-		70A8020226B2024800E293F3 /* zlib */ = {
-			isa = PBXGroup;
-			children = (
-				70A8020326B202CB00E293F3 /* module.modulemap */,
-			);
-			path = zlib;
 			sourceTree = "<group>";
 		};
 		70A8020426B2043F00E293F3 /* ios */ = {
