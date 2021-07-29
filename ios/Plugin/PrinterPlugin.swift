@@ -18,7 +18,7 @@ public class PrinterPlugin: CAPPlugin {
     
     @objc func print(_ call: CAPPluginCall) {
         let value = call.getString("value") ?? ""
-        let connection = TcpPrinterConnection.init(address: "10.200.0.212", andWithPort:6101);
+        let connection = TcpPrinterConnection.init(address: "10.200.004.060", andWithPort:6101);
          connection?.open();
          let cpcl = """
                  ^XA
