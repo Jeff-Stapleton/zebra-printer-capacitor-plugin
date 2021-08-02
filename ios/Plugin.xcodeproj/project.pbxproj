@@ -38,6 +38,8 @@
 		70A801FD26B1FE9600E293F3 /* TcpPrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E726B1FE9600E293F3 /* TcpPrinterConnection.h */; };
 		70A801FE26B1FE9600E293F3 /* SmartCardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A801E826B1FE9600E293F3 /* SmartCardReader.h */; };
 		70A8026826B2044D00E293F3 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8020C26B2043F00E293F3 /* libZSDK_API.a */; };
+		70C2E3E226B88369008BF4CA /* CapacitorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2E3E126B88369008BF4CA /* CapacitorResponse.swift */; };
+		70C2E3E726B89ED0008BF4CA /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A8020C26B2043F00E293F3 /* libZSDK_API.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +186,7 @@
 		70A8025926B2043F00E293F3 /* PrinterPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPluginTests.swift; sourceTree = "<group>"; };
 		70A8025A26B2043F00E293F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A8025B26B2043F00E293F3 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		70C2E3E126B88369008BF4CA /* CapacitorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorResponse.swift; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */,
+				70C2E3E726B89ED0008BF4CA /* libZSDK_API.a in Frameworks */,
 				20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +246,7 @@
 				50ADFF8B201F53D600D50D53 /* PrinterPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* PrinterPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				70C2E3E126B88369008BF4CA /* CapacitorResponse.swift */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -768,6 +773,7 @@
 				50E1A94820377CB70090CE1A /* PrinterPlugin.swift in Sources */,
 				2F98D68224C9AAE500613A4C /* Printer.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* PrinterPlugin.m in Sources */,
+				70C2E3E226B88369008BF4CA /* CapacitorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,8 +978,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/ZebraSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Plugin/ZebraSDK/**";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -986,8 +997,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/ZebraSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Plugin/ZebraSDK/**";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

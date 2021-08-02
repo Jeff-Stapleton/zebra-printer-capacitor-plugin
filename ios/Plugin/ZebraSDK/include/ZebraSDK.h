@@ -16,6 +16,7 @@
 #import "TcpPrinterConnection.h"
 #import "SGD.h"
 
+
 #import "ResponseValidator.h"
 #import "FormatUtil.h"
 #import "FileUtil.h"
@@ -26,5 +27,13 @@
 #import "ToolsUtil.h"
 
 #import "ZplPrintMode.h"
+
+#import "NetworkDiscoverer.h"
+#import "DiscoveredPrinter.h"
+#import "FieldDescriptionData.h"
+#import "PrinterStatusMessages.h"
+#import "ZebraErrorCode.h"
+#import "FormatUtil.h"
+
 
 #endif /* Header_h */
