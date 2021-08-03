@@ -13,7 +13,9 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`setupConnection(...)`](#setupconnection)
+* [`discover(...)`](#discover)
+* [`health()`](#health)
 * [`print(...)`](#print)
 
 </docgen-index>
@@ -21,15 +23,41 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### setupConnection(...)
 
 ```typescript
-echo(options: { value: string; }) => any
+setupConnection(options: { ip: string; port: number; }) => any
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param         | Type                                       |
+| ------------- | ------------------------------------------ |
+| **`options`** | <code>{ ip: string; port: number; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### discover(...)
+
+```typescript
+discover(options: { hops: number; waitForResponsesTimeout: number; }) => any
+```
+
+| Param         | Type                                                            |
+| ------------- | --------------------------------------------------------------- |
+| **`options`** | <code>{ hops: number; waitForResponsesTimeout: number; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### health()
+
+```typescript
+health() => any
+```
 
 **Returns:** <code>any</code>
 
@@ -39,12 +67,12 @@ echo(options: { value: string; }) => any
 ### print(...)
 
 ```typescript
-print(options: { value: string; }) => any
+print(options: { data: string; }) => any
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param         | Type                           |
+| ------------- | ------------------------------ |
+| **`options`** | <code>{ data: string; }</code> |
 
 **Returns:** <code>any</code>
 

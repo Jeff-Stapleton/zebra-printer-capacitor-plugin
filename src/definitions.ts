@@ -1,5 +1,6 @@
 export interface PrinterPlugin {
-  health(options: { ip: string, port: number}): Promise<{ success: boolean }>;
-  print(options: { ip: string, port: number, data: string }): Promise<{ success: boolean }>;
-  discover(options: { hops: number }): Promise<{ addresses: any[] }>;
+  setupConnection(options: {ip: string, port: number}): Promise<{ status: string, payload: any }>;
+  discover(options: { hops: number, waitForResponsesTimeout: number }): Promise<{ status: string, payload: any }>;
+  health(): Promise<{ status: string, payload: any }>;
+  print(options: { data: string }): Promise<{ status: string, payload: any }>;
 }

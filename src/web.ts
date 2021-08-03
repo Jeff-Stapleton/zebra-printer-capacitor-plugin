@@ -4,11 +4,17 @@ import { WebPlugin } from '@capacitor/core';
 import type { PrinterPlugin } from './definitions';
 
 export class PrinterWeb extends WebPlugin implements PrinterPlugin {
-  async print(options: { value: string }): Promise<{ value: string }> {
-    throw new Error('Method not implemented.' + options);
+  setupConnection(_options: { ip: string; port: number; }): Promise<{ status: string; payload: any; }> {
+    throw new Error('Method not implemented.');
   }
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  discover(_options: { hops: number; waitForResponsesTimeout: number; }): Promise<{ status: string; payload: any; }> {
+    throw new Error('Method not implemented.');
   }
+  health(): Promise<{ status: string; payload: any; }> {
+    throw new Error('Method not implemented.');
+  }
+  print(_options: { data: string; }): Promise<{ status: string; payload: any; }> {
+    throw new Error('Method not implemented.');
+  }
+  
 }
