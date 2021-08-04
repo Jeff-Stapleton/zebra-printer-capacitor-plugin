@@ -4,6 +4,8 @@
 // Define the plugin using the CAP_PLUGIN Macro, and
 // each method the plugin supports using the CAP_PLUGIN_METHOD macro.
 CAP_PLUGIN(PrinterPlugin, "Printer",
-           CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(setupConnection, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(discover, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(health, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(print, CAPPluginReturnPromise);
 )

@@ -1,5 +1,0 @@
-framework module ZebraSDK {
-    header "TcpPrinterConnection.h"
-    
-    export *
-}

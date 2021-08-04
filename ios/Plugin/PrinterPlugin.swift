@@ -1,5 +1,8 @@
 import Foundation
 import Capacitor
+import ZebraSDK
+import os
+
 /**
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
@@ -7,35 +10,34 @@ import Capacitor
 @objc(PrinterPlugin)
 public class PrinterPlugin: CAPPlugin {
     private let implementation = Printer()
-
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+    
+    @objc func setupConnection(_ call: CAPPluginCall) {
+        let ip = call.getString("ip") ?? ""
+        let port = call.getInt("port") ?? 0
+        
+        implementation.ip = ip;
+        implementation.port = port;
+        
         call.resolve([
-            "value": implementation.echo(value)
-        ])
+            "status": "Success"
+        ]);
+    }
+    
+    @objc func discover(_ call: CAPPluginCall) {
+        let hops = call.getInt("hops") ?? 1;
+        let waitForResponsesTimeout = call.getInt("waitForResponsesTimeout") ?? 10000;
+        
+        let response = implementation.discover(hops: hops, waitForResponsesTimeout: waitForResponsesTimeout);
+        
+        call.resolve(response);
+    }
+
+    @objc func health(_ call: CAPPluginCall) {
+        call.resolve(implementation.health())
     }
     
     @objc func print(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        let connection = TcpPrinterConnection.init(address: "10.200.0.212", andWithPort:6101);
-         connection?.open();
-         let cpcl = """
-                 ^XA
-                 ^FO10,0^GB385,750,3^FS
-                 ^CF0,90
-                 ^FO120,60^FDBNA^FS
-                 ^CF0,30
-                 ^FO100,150^FD\(value)^FS
-                 ^FO100,180^FDREF2 BL4H8^FS
-                 ^BY4,2,270
-                 ^FO50,330^BC^FD9784^FS
-                 ^XZ
-         """;
-         let data = cpcl.data(using: .utf8);
-        connection?.write(data, error: nil);
-             connection?.close();
-             call.resolve([
-                 "success": true
-             ])
-        }
+        let data = call.getString("data") ?? ""
+        call.resolve(implementation.print(data: data))
+    }
 }
